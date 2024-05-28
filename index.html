@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Shop</title>
+    <link rel="icon" href="logos.png">
+    <style>
+        .background-section {
+            background-image: url('Pizza.jpg');
+            height: 600px;
+            width:100%;
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .centered-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .opening-hours {
+            position: absolute;
+            bottom: 20px; /* Placing it at the bottom */
+            left: 20px;
+            font-size: 18px;
+            background-color:rgb(21, 7, 7);
+        }
+        
+    </style>
+
+</head>
+<body>
+    <!-- header starts here -->
+    <!-- nav starts here  -->
+    <header>
+        <nav>
+            <div style="background-color: black; color:white;">
+                <table border="0" cellspacing="5" cellpadding="5" >
+                    <tr>
+                        <th ><button><a href="#"><i>HOME</i></a></button></th>
+                        <th><button><a href="#menu"><i>MENU</i></a></button></th>
+                        <th><button><a href="#about"><i>ABOUT</i></a></button></th>
+                        <th><button><a href="#contact"><i>CONTACT</i></a></button></th>
+                    </tr>
+                </table>
+            </div>
+        </nav>
+    </header> 
+    <!-- nav ends here -->
+    <!-- header ends here -->
+    <!-- main starts here -->
+    <main>
+        <section class="background-section">
+            <div class="centered-text">
+                <h1 style="font-size: xx-large;">Thin Crust Pizza</h1>
+                <button style="background-color: cyan;" id="menu"><a href="#menu"><h2>Let me see the menu</h2></a></button>
+                <!-- Add any additional text or content here -->
+            </div>
+        </div>
+        <div class="opening-hours" ><h1><i>OPENS FROM 10AM TO 12 PM</i></h1></div>
+        </section>
+    
+    <!-- menu section starts here  -->
+    <section style="background-color: black;" id="menu">
+        <h1 style="color: white; text-align: center;"><i>THE MENU</i></h1>
+        <table border="1" cellspacing="0" cellpadding="5" bgcolor="white" width="100%">
+            <thead bgcolor="black" style="color: white;">
+                <tr>
+                    <th><button><a href="#menu"><i>PIZZA</i></a></button></th>
+                    <th><button><a href="#pasta"><i>PASTA</i></a></button></th>
+                    <th><button><a href="#starters"><i>STARTERS</i></a></button></th>
+                </tr>
+            </thead>
+        </table>
+        <fieldset>
+        <table border="0" cellspacing="5" cellpadding="5" width="100%" bgcolor="white">
+            <tr>
+                <td><b>Margherita</b></td>
+            </tr> 
+            <tr>
+                <td>Fresh tomatoes, fresh mozzarella, fresh basil <hr></td>
+            </tr> 
+            <tr>
+                <td><b>Formaggio</b></td>
+                <tr>
+                    <td>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg) <hr></td>
+                </tr>
+            </tr>
+            <tr>
+                <td><b>Meat Town</b></td>
+            </tr>
+            <tr>
+                <td>Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken <hr></td>
+            </tr>
+        </table>
+    </fieldset>
+    <h1 style="color: white; text-align: center;" id="pasta"><i>PASTA</i></h1>
+    <fieldset>
+        <table border="0" cellspacing="5" cellpadding="5" width="100%" bgcolor="white">
+            <tr>
+                <td><b>Lasagna</b></td>
+            </tr> 
+            <tr>
+                <td>Special sauce, mozzarella, parmesan, ground beef <hr></td>
+            </tr> 
+            <tr>
+                <td><b>Ravioli</b></td>
+                <tr>
+                    <td>Ravioli filled with cheese<hr></td>
+                </tr>
+            </tr>
+            <tr>
+                <td><b>Spaghetti Classica</b></td>
+            </tr>
+            <tr>
+                <td>Fresh tomatoes, onions, ground beef <hr></td>
+            </tr>
+        </table>
+    </fieldset>
+    <h1 style="color: white; text-align: center;" id="starters"><i>STARTERS</i></h1>
+    <fieldset>
+        <table border="0" cellspacing="5" cellpadding="5" width="100%" bgcolor="white">
+            <tr>
+                <td><b>Today's Soup</b></td>
+            </tr> 
+            <tr>
+                <td>Ask the waiter<hr></td>
+            </tr> 
+            <tr>
+                <td><b>Bruschetta</b></td>
+                <tr>
+                    <td>Bread with pesto, tomatoes, onion, garlic<hr></td>
+                </tr>
+            </tr>
+            <tr>
+                <td><b>Garlic bread</b></td>
+            </tr>
+            <tr>
+                <td>Grilled ciabatta, garlic butter, onions<hr></td>
+            </tr>
+        </table>
+    </fieldset>
+ </section>
+    <!-- menu section ends here -->
+    <!-- Section about starts here -->
+    <section>
+        <div style="background-color: rgb(248, 196, 167); color: white;">
+            <h1 id="about" style="text-align: center;"><i>ABOUT</i></h1>
+            <span style="font-size: x-large;">The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> <br><b>The Chef? </b>Mr. Italiano himself <br> <br>We are proud of our interiors.</span>
+            <span style="font-size: x-large;">The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> <br><b>The Chef? </b>Mr. Italiano himself <br> <br>We are proud of our interiors.</span>
+            <img src="about.jpg" alt="" height="600" width="100%">
+            <h1><i>OPENING HOURS</i></h1>
+            <table width="100%" cellspacing="5" cellpadding="5" style="font-size: x-large;">
+                <tr>
+                    <td><i>Mon & Tue CLOSED</i></td>
+                    <td><i>Friday 10:00 - 12:00</i></td>
+                </tr>
+                <tr>
+                    <td>Wednesday 10.00 - 24.00</td>
+                    <td>Saturday 10:00 - 23:00</td>
+                </tr>
+                <tr>
+                    <td>Thursday 10:00 - 24:00</td>
+                    <td>Sunday Closed</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!-- Section about ends here -->
+    <!-- contact section start here -->
+    <section style="background-color: rgb(129, 162, 189); color: white;">
+        <img src="contact.jpg" alt="" height="600" width="100%">
+        <h1 id="contact" style="text-align: center;"><i>Contact Us</i></h1>
+        <span style="font-size: x-large;">Find us at some [address] or call us at 05050515-122330 <br> <br>
+
+            We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. <br> <br>
+            
+            Reserve a table, ask for today's special or just send us a message:</span>
+            <fieldset>
+                <form action="" method="" enctype="application/x-www-form-urlencoded" target="_blank">
+                    <textarea placeholder="NAME" rows="2" cols="100"></textarea>
+                    <textarea placeholder="HOW MANY PEOPLE" rows="2" cols="100"></textarea>
+                    <textarea placeholder="28-05-2024 20:00" rows="2" cols="100"></textarea>
+                    <textarea placeholder="MESSAGE SPECIAL REQUIREMENTS" rows="2" cols="100"></textarea> <br>
+                    <button>Submit</button>
+
+                </form>
+            </fieldset>
+    </section>
+    <!-- contact secton ends here -->
+</main>
+    <!-- main ends here -->
+    <!-- footer starts here -->
+    <div style="background-color: black; color: white;" >
+    <span>&copy;2024, All rights are reserved.</span></div>
+    <!-- footer ends here -->
+</body>
+</html>
